@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/discussionFragment">
+
+    <fragment
+        android:id="@+id/discussionFragment"
+        android:name="com.example.nextbook.main.fragments.DiscussionFragment"
+        android:label="fragment_discussion"
+        tools:layout="@layout/fragment_discussion" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.nextbook.main.fragments.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/storyFragment"
+        android:name="com.example.nextbook.main.fragments.StoryFragment"
+        android:label="fragment_story"
+        tools:layout="@layout/fragment_story" />
+    <fragment
+        android:id="@+id/statusFragment"
+        android:name="com.example.nextbook.main.fragments.StatusFragment"
+        android:label="fragment_status"
+        tools:layout="@layout/fragment_status" />
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.nextbook.main.fragments.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" />
+</navigation>

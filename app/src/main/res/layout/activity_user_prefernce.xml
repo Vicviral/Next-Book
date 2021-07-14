@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intro.UserPreference">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status bar color test"/>
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup
+            android:id="@+id/preferences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            app:justifyContent="space_evenly"
+            app:flexWrap="wrap"
+            android:layout_centerInParent="true"
+            app:alignItems="center"
+            app:toggle_requiredAmount="2"
+            app:toggle_selectableAmount="6">
+
+            <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                app:toggle_icon="@drawable/ic_logo_icon"
+                app:toggle_iconGravity="top|center"
+                app:toggle_iconPaddingHorizontal="15dp"
+                app:toggle_iconPaddingTop="10dp"
+                app:toggle_selectedBackgroundColor="#5e6fed"
+                app:toggle_selectedTextColor="@android:color/white"
+                app:toggle_text="AI"
+                app:toggle_textGravity="bottom|center"
+                app:toggle_textPaddingTop="10dp"
+                app:toggle_textPaddingBottom="10dp" />
+
+            <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                app:toggle_icon="@drawable/ic_logo_icon"
+                app:toggle_iconGravity="top|center"
+                app:toggle_iconPaddingHorizontal="15dp"
+                app:toggle_iconPaddingTop="10dp"
+                app:toggle_selectedBackgroundColor="#5e6fed"
+                app:toggle_selectedTextColor="@android:color/white"
+                app:toggle_text="Machine Learning"
+                app:toggle_textGravity="bottom|center"
+                app:toggle_textPaddingTop="10dp"
+                app:toggle_textPaddingBottom="10dp" />
+
+            <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                app:toggle_icon="@drawable/ic_logo_icon"
+                app:toggle_iconGravity="top|center"
+                app:toggle_iconPaddingHorizontal="15dp"
+                app:toggle_iconPaddingTop="10dp"
+                app:toggle_selectedBackgroundColor="#5e6fed"
+                app:toggle_selectedTextColor="@android:color/white"
+                app:toggle_text="Robotics"
+                app:toggle_textGravity="bottom|center"
+                app:toggle_textPaddingTop="10dp"
+                app:toggle_textPaddingBottom="10dp" />
+
+            <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                app:toggle_icon="@drawable/ic_logo_icon"
+                app:toggle_iconGravity="top|center"
+                app:toggle_iconPaddingHorizontal="15dp"
+                app:toggle_iconPaddingTop="10dp"
+                app:toggle_selectedBackgroundColor="#5e6fed"
+                app:toggle_selectedTextColor="@android:color/white"
+                app:toggle_text="Web Dev"
+                app:toggle_textGravity="bottom|center"
+                app:toggle_textPaddingTop="10dp"
+                app:toggle_textPaddingBottom="10dp" />
+
+            <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                app:toggle_icon="@drawable/ic_logo_icon"
+                app:toggle_iconGravity="top|center"
+                app:toggle_iconPaddingHorizontal="15dp"
+                app:toggle_iconPaddingTop="10dp"
+                app:toggle_selectedBackgroundColor="#5e6fed"
+                app:toggle_selectedTextColor="@android:color/white"
+                app:toggle_text="Block Chain"
+                app:toggle_textGravity="bottom|center"
+                app:toggle_textPaddingTop="10dp"
+                app:toggle_textPaddingBottom="10dp" />
+
+            <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                app:toggle_icon="@drawable/ic_logo_icon"
+                app:toggle_iconGravity="top|center"
+                app:toggle_iconPaddingHorizontal="15dp"
+                app:toggle_iconPaddingTop="10dp"
+                app:toggle_selectedBackgroundColor="#5e6fed"
+                app:toggle_selectedTextColor="@android:color/white"
+                app:toggle_text="Mobile Dev"
+                app:toggle_textGravity="bottom|center"
+                app:toggle_textPaddingTop="10dp"
+                app:toggle_textPaddingBottom="10dp" />
+
+            <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                app:toggle_icon="@drawable/ic_logo_icon"
+                app:toggle_iconGravity="top|center"
+                app:toggle_iconPaddingHorizontal="15dp"
+                app:toggle_iconPaddingTop="10dp"
+                app:toggle_selectedBackgroundColor="#5e6fed"
+                app:toggle_selectedTextColor="@android:color/white"
+                app:toggle_text="Embeded System"
+                app:toggle_textGravity="bottom|center"
+                app:toggle_textPaddingTop="10dp"
+                app:toggle_textPaddingBottom="10dp" />
+
+            <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                app:toggle_icon="@drawable/ic_logo_icon"
+                app:toggle_iconGravity="top|center"
+                app:toggle_iconPaddingHorizontal="15dp"
+                app:toggle_iconPaddingTop="10dp"
+                app:toggle_selectedBackgroundColor="#5e6fed"
+                app:toggle_selectedTextColor="@android:color/white"
+                app:toggle_text="UI/UX"
+                app:toggle_textGravity="bottom|center"
+                app:toggle_textPaddingTop="10dp"
+                app:toggle_textPaddingBottom="10dp" />
+
+        </nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup>
+
+
+    <TextView
+        android:id="@+id/array"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btnContinue"/>
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="#FFF"
+        android:text="@string/cont"
+        android:background="@drawable/primary_button"/>
+
+</RelativeLayout>

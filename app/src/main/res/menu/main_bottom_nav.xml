@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/chatFragment"
+        android:title=""
+        android:icon="@drawable/ic_chats" />
+
+    <item android:id="@+id/storyFragment"
+        android:title=""
+        android:icon="@drawable/ic_story"/>
+
+    <item android:id="@+id/discussionFragment"
+        android:title=""
+        android:icon="@drawable/ic_discussion"/>
+
+    <item android:id="@+id/statusFragment"
+        android:title=""
+        android:icon="@drawable/ic_status"/>
+
+    <item android:id="@+id/menuFragment"
+        android:title=""
+        android:icon="@drawable/ic_menu_4"/>
+
+</menu>
